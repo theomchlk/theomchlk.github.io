@@ -2,30 +2,62 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Théo Michalak - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Théo Michalak | Portfolio Développeur Unity</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Théo Michalak</h1>
-    <p>Étudiant en Master Ingénierie Logicielle pour les Jeux Vidéo.</p>
 
-    <h2>Curriculum Vitae</h2>
-    <a href="CV MICHALAK_Théo.pdf">Télécharger le CV PDF</a>
+    <header>
+        <div class="container">
+            <h1>Théo Michalak</h1>
+            <p class="subtitle">Étudiant en Master Ingénierie Logicielle pour les Jeux Vidéo</p>
+            <p class="objective">À la recherche d'une <strong>alternance en Développement Unity</strong></p>
+            
+            <div class="cta-buttons">
+                <a href="CV MICHALAK_Théo.pdf" class="btn btn-primary" download>Télécharger mon CV (PDF)</a>
+                <a href="Portfolio.pdf" class="btn btn-secondary" download>Mon Portfolio (PDF)</a>
+                <a href="https://theomchlk.itch.io/" target="_blank" class="btn btn-itch">Mon Itch.io</a>
+            </div>
+        </div>
+    </header>
 
-    <h2>Portfolio</h2>
-    <a href="Portfolio.pdf">Télécharger le portfolio PDF</a>
+    <main class="container">
+        <section id="projets">
+            <h2>Mes Projets</h2>
 
-    <h2>Projets</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Iron Cards : Frontline</h3>
+                    <p class="tech-stack">Jeu de stratégie réseau — Unity / FishNet</p>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/s3otCYl_hvk" title="Iron Cards : Frontline" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </article>
 
-    <h3>Iron Cards : Frontline (Jeu de stratégie réseau - Unity / FishNet)</h3>
-    <a href="https://youtu.be/s3otCYl_hvk">Vidéo de présentation</a>
+                <article class="project-card">
+                    <h3>Prototype VR</h3>
+                    <p class="tech-stack">Réalité Virtuelle Multijoueur — Unity / FishNet</p>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/Gp3r7CpnVnw" title="Prototype VR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </article>
 
-    <h3>Prototype VR (Unity / FishNet)</h3>
-    <a href="https://youtu.be/Gp3r7CpnVnw">Vidéo de présentation</a>
+                <article class="project-card">
+                    <h3>Projets de Game Jams</h3>
+                    <p class="tech-stack">Créations rapides — Unity</p>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/EEuRQW-o9HA" title="Game Jams" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
 
-    <h3>Projets de Game Jams</h3>
-    <a href="https://youtu.be/EEuRQW-o9HA">Video de présentation de mes jeux</a>
-    
-    <h2>Liens</h2>
-    <a href="https://theomchlk.itch.io/">Itch.io</a>
+    <footer>
+        <p>&copy; 2026 Théo Michalak. Tous droits réservés.</p>
+    </footer>
+
 </body>
 </html>
